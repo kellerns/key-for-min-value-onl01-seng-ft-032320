@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
     num_array << value
   end
-  name_hash.index(num_array.max)
+  name_hash.index(num_array.min)
 end
